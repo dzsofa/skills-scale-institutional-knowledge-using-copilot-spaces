@@ -55,6 +55,8 @@ Definitions and responsibilities for project roles including Developers, Product
 
 **Core roles**: Project Manager, Product Manager, Developers, QA/Testing, Stakeholders
 
+**Additional roles** (as needed): UX Designer, Business Analyst, DevOps Engineer, Scrum Master, Customer Support Lead
+
 ## Quick Start
 
 1. **New to OctoAcme?** Start with the [Overview](octoacme-project-management-overview.md) to understand our approach
