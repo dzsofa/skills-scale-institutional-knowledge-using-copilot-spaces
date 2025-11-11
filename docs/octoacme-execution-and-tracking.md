@@ -13,15 +13,16 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
-  - Run automated tests and linting in CI before requesting review
+  - Run automated tests and linting in CI before requesting review (CI/CD managed by [DevOps Engineer](octoacme-roles-and-personas.md))
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
+- Security scanning in CI (automated by [DevOps Engineer](octoacme-roles-and-personas.md))
 - Manual QA for feature acceptance when needed
+- Usability testing coordinated with [UX Designer](octoacme-roles-and-personas.md) as needed
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +36,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests and lint (with DevOps Engineer support)
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Deployment pipeline validated and monitored by DevOps Engineer
