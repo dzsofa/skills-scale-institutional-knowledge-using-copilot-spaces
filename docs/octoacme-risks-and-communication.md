@@ -23,6 +23,8 @@ Maintain a simple table with:
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- [Customer Support Lead](octoacme-roles-and-personas.md) ensures support team is informed of changes
+- [Business Analyst](octoacme-roles-and-personas.md) may coordinate requirements changes with stakeholders
 
 ## Communication Templates
 Weekly Status Template:
@@ -31,7 +33,7 @@ Weekly Status Template:
 - Risks & blockers:
 - Ask / decisions needed:
 
-Incident Communication
+Incident Communication (coordinated by [DevOps Engineer](octoacme-roles-and-personas.md) and [Customer Support Lead](octoacme-roles-and-personas.md))
 - Triage summary
 - Actions being taken
 - Expected timeline
